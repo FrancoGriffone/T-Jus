@@ -1,0 +1,18 @@
+/*usuario-config*/
+
+.usuario-perfil, .datos-usuario , .button-consulta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-usuario {
+    margin: 5%;
+}
+.cambiar-datos-usuario {
+   margin-top: 15%;
+}
+.comentarios-usuarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

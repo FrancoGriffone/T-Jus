@@ -1,0 +1,51 @@
+/*index-config*/
+
+.login {
+    background-color: rgb(122, 25, 212);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.iniciar-chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat {
+    display:block;
+    background-color: rgb(122, 25, 212);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    transition: all 0.8s ease-in-out;
+    &:hover {
+        background-color: #ffae00;
+        color: black;
+    }
+}
+.slogan {
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+    align-self: center;
+    margin: 10% 5% 10% 5%;
+}
+.objetivo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    align-self: center;
+    margin: 0% 7.5% 5% 10%;
+}
+.sintesis {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    align-self: center;
+    margin-top: 10%;
+    margin-left: 12%;
+    margin-right: 5%;
+
+}

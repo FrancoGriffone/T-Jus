@@ -1,0 +1,80 @@
+/*footer-config*/
+
+.accordion-button-footer , .footer-t-jus {
+    background-color:rgb(37, 155, 170)
+}
+.accordion-body-footer {
+    background-color: rgb(208, 240, 222);
+}
+.footer-t-jus {
+    justify-items: center;
+}
+.dudas {
+    color: blanchedalmond;
+    text-decoration: underline;
+    font-family:'Roboto', sans-serif;
+    font-size: large;
+    padding-top: 15%;
+}
+.nosotros-div {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 7%;
+    border-right: 2px solid whitesmoke;
+}
+.nosotros {
+    color: blanchedalmond;
+}
+.reclamo-div {
+    margin-top: 5%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    border-left: 2px solid whitesmoke;
+    padding-right: 2%;
+    
+}
+.reclamo {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.dudas-1 > li, .dudas-2 > li{
+    display: inline-block;
+}
+
+.dudas-1 li , .dudas-2 li, .dudas-1 li ul li , .dudas-2 li ul li{
+    background-color:rgb(122, 25, 212);
+    color: white;
+    text-decoration:none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    display:block;
+    transition: all 0.8s ease-in-out;
+}
+
+.dudas-1 li:hover , .dudas-2 li:hover, .dudas-1 li ul li:hover , .dudas-2 li ul li:hover{
+    background-color: rgb(31, 31, 32);
+}
+
+.dudas-1 li:hover > ul , .dudas-2 li:hover > ul {
+    display:block;
+}
+
+.dudas-1 li ul , .dudas-2 li ul{
+    display:none;
+    position:absolute;
+}
+
+.dudas-1 li ul li {
+    position:relative;
+    min-width: 350px;
+}
+.dudas-1 li ul li ul li{
+    position:relative;
+    min-width: 375px;
+    right: -375px;
+}
+.dudas-2 li ul li {
+    position:relative;
+    min-width: 400px;
+}
