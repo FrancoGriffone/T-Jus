@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>T-Jus|Noticias</title>
+</head>
+<body>
+    
+    <header class="t-jus-header">
+        <!--Navbar-->
+        <nav class="navbar navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand logo-web" href="../index.html">
+                  <img src="../img/logo.png" alt="logo" width="40px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active t-jus" aria-current="page" href="../index.html">T-Jus</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link perfil-usuario" href="../pages/usuario.html">Perfil de usuario</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Recursos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item biblioteca" href="../pages/biblioteca.html">Biblioteca Jurídica</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item noticias" href="noticias.html">Noticias</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+         <!--login--->
+
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button accordion-button-header collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Iniciar sesión
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body accordion-body-header">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Nunca le des tus datos a nadie</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit">
+                   <a class="login">Iniciar sesión</a>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="container-fluid desarrollo-noticia">
+
+       <!--link-de-la-noticia-actual-->
+
+        <div class="row">
+          <div class="col-12 link-pagina">
+            <a href="noticias-1.html" class="link-noticia">T-Jus/Noticias/Cuota-alimentaria</a>
+         </div>
+        </div>
+
+        <!--título-y-foto-principal-->
+
+        <div class="row">
+            <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11 noticia-pic">
+                <h3 class="titulo-noticia">Cuota alimentaria: Que tener en cuenta</h3>
+                <img src="../img/cuota_alimentaria.jpg" alt="cuota-alimentaria" width="100%" class="noticia-photo">
+            </div>
+        </div>
+
+        <!--desarrollo-noticia-->
+
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <p class="desarrollo">
+                  La cuota alimentaria es un importe que debe pagar el padre que no convive con sus hijos (en un caso de
+                  divorcio o separación de hecho) para colaborar con los gastos destinados a su bienestar. Esta cuota es
+                  mensual y obligatoria hasta que los chicos alcancen la mayoría de edad. Incluye los gastos derivados
+                  de la vivienda, alimentación, salud, educación y esparcimiento. Antes del 2012 se trataba de un
+                  porcentaje fijo, pero ahora se estableció un monto variable que no toma como base su fortuna o
+                  enriquecimiento, sino que se establece en función de las necesidades materiales y espirituales de los
+                  hijos menores.
+
+                  ¿Cómo sé qué debo pagar?
+
+                  El monto debe ser pactado entre ambos padres y, para que tenga validez, debe estar homologado
+                  judicialmente. Si no se ponen de acuerdo, será el juez quien determine la suma a ser pagada teniendo
+                  en cuenta el nivel de vida de los menores y los ingresos de ambos progenitores para comprobar cuánto
+                  pueden aportar. Una vez que se determina el dinero que necesitan los chicos para satisfacer sus
+                  necesidades, se divide esta suma en dos mitades iguales.
+
+                  La ley no indica qué porcentaje estipular sino que este monto queda al criterio del juez (oscila entre
+                  un 20% y un 30% de los ingresos para los empleados registrados en relación de dependencia).De todas
+                  maneras, este criterio cambia cuando los padres tienen gran poder económico, entonces prima el nivel
+                  de vida del grupo familiar cuando convivía.
+
+                  A tener en cuenta...
+
+                  Para fijar el monto de la cuota alimentaria, se tienen en cuenta diversos factores como:
+
+                  1) Ingresos económicos de cada uno de los padres. Se trata de buscar un equilibrio ya que el padre que
+                  convive con el menor tiene que dedicar menos tiempo a su trabajo.
+                  2) La edad del menor. Los gastos de su crianza dependen muchas veces de la edad.
+                  3) Gastos de alimentación.
+                  4) Educación. Depende del nivel de escolaridad que esté transitando, si es primaria, secundaria o
+                  universidad y de si se trata de una institución pública o privada. Incluye también el transporte y el
+                  material de estudio.
+                  5) Si posee algún grado de discapacidad física o psíquica
+                  6) Vivienda. Influye si tiene vivienda propia o tiene que pagar alquiler.
+                  7) Recreación. Comprende los gastos de los viajes de estudio y vacaciones, festejo de cumpleaños,
+                  juguetes, actividades deportivas y artísticas.
+                </p>
+            </div>
+            
+            <!--Carousel-->
+            
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 carousel-t-jus-flex">
+                <div id="carouselExampleCaptions" class="carousel slide w-75 carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="noticias.html">
+                          <img src="../img/alquileres.jpg" class="d-block w-100" alt="ley-de-alquileres">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="carousel-t-jus">Ley de Alquileres</h5>
+                          <p class="carousel-t-jus">Todo sobre la nueva ley que rige en el país</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="noticias-2.html">
+                          <img src="../img/aportes.jpg" class="d-block w-100" alt="aportes-afip">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="carousel-t-jus">Aportes del empleador</h5>
+                          <p class="carousel-t-jus">Conocé como controlar si tu empleador está realizando los aportes correspondientes</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="noticias-3.html">
+                          <img src="../img/empleo-blanco.jpg" class="d-block w-100" alt="trabajo-en-blanco">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="carousel-t-jus">Empleo registrado</h5>
+                          <p class="carousel-t-jus">La situación del empleo registrado o "en blanco" en la Argentina</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-t-jus">
+      <!--help-users-->
+      <div class="d-none d-lg-block">
+        <nav>
+          <div class="row">
+              <div class="col nosotros-div"> 
+                  <p class="nosotros">Somos un grupo de Abogados que vemos la dificultad que existe
+                      en las personas para poder asesorarse jurídicamente de manera
+                      correcta. En muchas ocasiones, simples preguntas que no encontraron
+                      respuesta evita que surjan acciones que pueden facilitar tu vida.
+                      Nuestro objetivo es ese, que vos tengas la posibilidad de sacar 
+                      todas tus dudas con un profesional y, eventualmente, puedas llevar
+                      a cabo cualquier prodecimiento.</p>
+              </div>
+              <div class="col">
+                  <p class="dudas">Dudas</p>
+                  <ul class="dudas-1">
+                      <li>¿Quienes son los que se pondrán en contacto conmigo?
+                          <ul>
+                              <li>Se pondrá en contacto con vos un abogado recibido y matriculado
+                                  registrado en nuestra base de datos.
+                              </li>
+                          </ul>
+                      </li>
+                  <li>¿Cómo designan quien es responsable de asesorarme?
+                      <ul>
+                          <li>El emparejamiento se realizará
+                              en base a las temáticas que seleccionaste en la encuesta para poder
+                              vincularte con un asesor que también haya marcado previamente su 
+                              conocimiento en dichas áreas.
+                          </li>
+                      </ul>
+                  </li>
+                  </ul>
+              </div>
+              <div class="col reclamo-div">
+                  <ul class="dudas-2">
+                      <li><a href="../pages/usuario.html" class="reclamo">Quiero hacer un comentario/queja</a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+
+        <!--pantallas pequeñas-->
+
+        <div class="d-block d-lg-none">
+          <div class="accordion footer-small" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button accordion-button-footer" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Sobre nosotros
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body accordion-body-footer">
+                  <strong>Somos un grupo de Abogados que vemos la dificultad que existe
+                    en las personas para poder asesorarse jurídicamente de manera
+                    correcta.</strong> En muchas ocasiones, simples preguntas que no encontraron
+                    respuesta evita que surjan acciones que pueden facilitar tu vida.
+                    Nuestro objetivo es ese, que vos tengas la posibilidad de sacar 
+                    todas tus dudas con un profesional y, eventualmente, puedas llevar
+                    a cabo cualquier prodecimiento.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button accordion-button-footer collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  ¿Quienes son los que se pondrán en contacto conmigo? ¿Cómo designan quien es responsable de asesorarme?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body accordion-body-footer">
+                  <strong>Se pondrá en contacto con vos un abogado recibido y matriculado
+                    registrado en nuestra base de datos.</strong> El emparejamiento se realizará
+                    en base a las temáticas que seleccionaste en la encuesta para poder
+                    vincularte con un asesor que también haya marcado previamente su 
+                    conocimiento en dichas áreas.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button accordion-button-footer collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Quiero hacer un comentario/queja
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body accordion-body-footer">
+                  Si presionas en este <strong><a href="../pages/usuario.html" class="reclamo">link</a></strong> se te redirigirá a tu página de usuario en donde podrás contactarte con nosotros.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+  </footer>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
