@@ -24,10 +24,10 @@
   }
 }
 /*all-sections*/
-section {
-  width: 100%;
-  /*background-principal-color*/
-  background-color: #d0f0de;
+.item-fixed {
+  position: fixed;
+  bottom: 1%;
+  right: -30%;
 }
 
 .container-fluid {
@@ -227,14 +227,6 @@ ul, li {
 
 /*index-config*/
 /*index-config*/
-.login {
-  background-color: #7a19d4;
-  color: white;
-  padding: 15px 30px;
-  border-radius: 12px;
-  font-family: "Roboto", sans-serif;
-}
-
 .iniciar-chat {
   display: flex;
   align-items: flex-end;
@@ -383,7 +375,7 @@ ul, li {
   margin: 0% 5% 5% 5%;
 }
 
-.login-usuario-encuesta, .enviar-consulta-div, .alerta-div {
+.enviar-consulta-div, .alerta-div {
   display: flex;
   align-items: center;
   justify-content: center;
