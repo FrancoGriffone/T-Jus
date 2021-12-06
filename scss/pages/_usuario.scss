@@ -10,9 +10,46 @@
 }
 .cambiar-datos-usuario {
    margin-top: 15%;
+   margin-left: 10%;
+}
+.nombre-usuario {
+    margin-bottom: 5%;
 }
 .comentarios-usuarios {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: 5%;
+}
+.button-consulta {
+    margin-top: 5%;
+}
+.enviar-consulta-button { 
+    background-color: #7a19d4;
+    color: white;
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+}
+.enviar-consulta {
+    text-decoration: none;
+    padding: 15px 30px;
+    &:hover {
+        background-color: #ffae00;
+        color: black;
+    }
+}
+.section-usuario-one {
+    background-color: rgb(248, 239, 226);
+}
+.section-usuario-two {
+    background-color: rgb(160, 189, 243);
+}
+.section-usuario-three {
+    background-color: rgba(224, 220, 220, 0.822);
+}
+.section-usuario-four {
+    background-color: rgb(160, 189, 243);
+}
+.section-usuario-five {
+    background-color: rgb(248, 239, 226);
 }

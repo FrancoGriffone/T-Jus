@@ -1,17 +1,26 @@
 /*noticias-config*/
 
+.slogan-noticia {
+    font-family: 'Secular One', sans-serif;
+    font-size: 90%;
+}
 .noticia-pic {
-    margin: 5%;
+    margin: 5% 5% 3% 5%;
+}
+.pie-imagen {
+    margin-top: 3%;
+    font-family: 'Secular One', sans-serif;
+    font-size: 110%;
 }
 .desarrollo {
-    margin-left: 7%;
-    margin-bottom: 5%;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.253);
+    margin: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
 }
 .titulo-noticia {
     margin-bottom: 5%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-family: 'Secular One', sans-serif;
+    font-size: 300%;
 }
 .link-noticia {
     text-decoration:underline;
@@ -19,4 +28,19 @@
 }
 .link-pagina {
     margin-top: 2%;
+}
+.section-noticia-one {
+    background-color: rgb(248, 239, 226);
+}
+.section-noticia-two {
+    background-color: rgb(160, 189, 243);
+}
+.section-noticia-three {
+    background-color: rgba(224, 220, 220, 0.822);
+}
+.section-noticia-four {
+    background-color: rgb(160, 189, 243);
+}
+.section-noticia-five {
+    background-color: rgb(248, 239, 226);
 }

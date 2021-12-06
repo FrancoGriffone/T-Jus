@@ -57,52 +57,20 @@
                 Recursos
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item biblioteca" href="../pages/biblioteca.html">Biblioteca Jurídica</a></li>
+                <li><a class="dropdown-item biblioteca-header" href="#section-biblioteca">Biblioteca Jurídica</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item noticias" href="../pages/noticias.html">Noticias</a></li>
+                <li><a class="dropdown-item noticias" href="#section-interes">Noticias</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <!--login-pantallas-pequeñas-->
-
-    <div class="accordion accordion-flush d-block d-lg-none" id="accordionFlushExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingOne">
-          <button class="accordion-button accordion-button-header collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-            Iniciar sesión
-          </button>
-        </h2>
-        <div id="flush-collapseOne" class="accordion-collapse collapse " aria-labelledby="flush-headingOne"
-          data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body accordion-body-header">
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Usuario</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Nunca le des tus datos a nadie</div>
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <button type="submit">
-                <a class="login">Iniciar sesión</a>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
   </header>
 
-  <section class="container-fluid usuario-config">
+  <section class="container-fluid section-usuario-one">
 
     <!--user-config-->
 
@@ -126,84 +94,130 @@
 
     <div class="row">
       <div class="col-6 col-sm-7 col-md-8 col-lg-6 col-xl-6 col-xxl-6 datos-usuario">
-        <h2>Franco Griffone</h2>
-      </div>
-    </div>
-
-    <!--espacio-para-comentarios-->
-
-    <div class="row">
-      <div class="col comentarios-usuarios">
-        <div>
-          <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-              style="height: 100px"></textarea>
-            <label for="floatingTextarea2">Dejanos tus comentarios acá</label>
-          </div>
-        </div>
-        <div class="button-consulta">
-          <button>
-            <a class="login">Enviar comentarios</a>
-          </button>
-        </div>
-      </div>
-
-      <!--Carousel-->
-
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 carousel-t-jus-flex carousel-t-jus-usuario">
-        <div id="carouselExampleCaptions" class="carousel slide w-75 carousel-dark slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <a href="noticias-1.html">
-                <img src="../img/cuota_alimentaria.jpg" class="d-block w-100" alt="cuota-alimentaria">
-              </a>
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="carousel-t-jus">Cuota Alimentaria</h5>
-                <p class="carousel-t-jus">¿Cómo se calcula la cuota alimentaria en Argentina?</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <a href="noticias-2.html">
-                <img src="../img/aportes.jpg" class="d-block w-100" alt="aportes-afip">
-              </a>
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="carousel-t-jus">Aportes del empleador</h5>
-                <p class="carousel-t-jus">Conocé como controlar si tu empleador está realizando los aportes
-                  correspondientes</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <a href="noticias-3.html">
-                <img src="../img/empleo-blanco.jpg" class="d-block w-100" alt="trabajo-en-blanco">
-              </a>
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="carousel-t-jus">Empleo registrado</h5>
-                <p class="carousel-t-jus">La situación del empleo registrado o "en blanco" en la Argentina</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+        <h2 class="nombre-usuario">Franco Griffone</h2>
       </div>
     </div>
   </section>
+    <!--espacio-para-comentarios-->
+
+    <section class="container-fluid section-encuesta-two">
+      <div class="row">
+        <div class="col comentarios-usuarios">
+          <div>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Dejanos tus comentarios acá</label>
+            </div>
+          </div>
+        <div class="button-consulta">
+          <button class="enviar-consulta-button">
+            <a class="enviar-consulta">Enviar comentarios</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+      <section id="section-biblioteca" class="container-fluid section-encuesta-three">
+        <div class="row">
+          <div class="col-12 biblioteca">
+            <div class= "biblioteca-imagenes">
+              <a href="http://www.saij.gob.ar/" class="biblioteca-link" target="_blank"><img src="../img/ley.png" href="http://www.saij.gob.ar/" target="_blank" alt="antecedentes-juridicos" width="30%" class="biblioteca-icon"></a>
+              <a href="http://www.infoleg.gob.ar/" class="biblioteca-link" target="_blank"><img src="../img/libro.png" alt="ley-argentina" width="30%" class="biblioteca-icon"></a>
+              <a href="https://www.argentina.gob.ar/tema/consumidores/conocer-mis-derechos" class="biblioteca-link" target="_blank"><img src="../img/argentina.png" alt="conoce-tus-derechos" width="30%" class="biblioteca-icon"></a>
+              <a href="https://www.boletinoficial.gob.ar/" class="biblioteca-link" target="_blank"><img src="../img/boletin-informativo.png" alt="boletin-oficial" width="30%" class="biblioteca-icon"></a>
+            </div>
+            <div class="biblioteca-descripciones">
+              <p>El Sistema Argentino de Información Jurídica (SAIJ) es un repositorio y biblioteca digital gratuita
+                del derecho argentino.</p>
+              <p>InfoLeg es una base de datos que recopila
+                leyes nacionales y actos administrativos de alcance general del Poder Ejecutivo Nacional.</p>
+              <p>Argentina.gob.ar es el portal oficial del Estado argentino.
+                Aquí vas a encontrar todo tipo de información.</p>
+              <p>El Boletín Oficial de la República Argentina es el medio de comunicación escrito que el Estado argentino utiliza para publicar sus normas
+                jurídicas.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-interes" class="container-fluid section-encuesta-four">
+        <div class="row">
+          <div class="col-12 div-interes">
+            <h4 class="interes">
+              También puede interesarte
+            </h4>
+            <img src="../img/flecha-hacia-abajo.png" alt="flecha-abajo-icon" width="5%" class="biblioteca-icon interes-icon">
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid section-encuesta-five">
+         <!--Carousel-->
+        <div class="row">
+          <div class="col-12 carousel-t-jus-flex">
+            <div id="carouselExampleCaptions" class="carousel slide w-100 carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row align-items-center carousel-div">
+                    <div class="col">
+                        <h3 class="mini-noticia">Empleo registrado</h3>
+                        <p> El trabajo registrado mostró en agosto un crecimiento de 2,8% interanual, al sumar un total de
+                          12.158.000 empleos, mientras que frente a julio pasado marcó una mejora de 0,5%, por la creación de
+                          54.600 puestos, de acuerdo con un informe del Ministerio de Trabajo difundido este miércoles.</p>
+                    </div>
+                    <div class="col">
+                      <a href="../pages/noticias-3.html"><img src="../img/empleo-blanco.jpg" class="d-block w-100" alt="trabajo-en-blanco"></a>
+                    </div>
+                </div>
+                </div>
+                <div class="row carousel-item">
+                  <div class="row align-items-center carousel-div">
+                    <div class="col">
+                      <h3 class="mini-noticia">Consulta de aportes</h3>
+                        <p>  A través de la página de la Administración Federal de Ingresos Públicos (AFIP) se pueden saber si un
+                          trabajador está debidamente registro, es decir "en blanco", así como también cuáles son los aportes que
+                          realiza el empleador, sin la necesidad de contar con clave fiscal. </p>                               
+                    </div>
+                    <div class="col">
+                      <a href="../pages/noticias-2.html"><img src="../img/aportes.jpg" class="d-block w-100" alt="aportes-afip"></a>
+                    </div>
+                </div>
+                </div>
+                <div class="row carousel-item">
+                  <div class="row align-items-center carousel-div">
+                    <div class="col">
+                        <h3 class="mini-noticia">Cuota alimentaria</h3>
+                        <p> Esta cuota es
+                          mensual y obligatoria hasta que los chicos alcancen la mayoría de edad. Incluye los gastos derivados
+                          de la vivienda, alimentación, salud, educación y esparcimiento. Ahora se estableció un monto variable que se establece en función de las necesidades materiales y espirituales de los
+                          hijos menores. </p>
+                    </div>
+                    <div class="col">
+                      <a href="../pages/noticias-1.html"><img src="../img/cuota_alimentaria.jpg" class="d-block w-100" alt="cuota-alimentaria"></a>
+                    </div>
+                </div>
+              </div>
+              <div class="row carousel-item">
+                <div class="row align-items-center carousel-div">
+                  <div class="col">
+                      <h3 class="mini-noticia">Ley de alquileres</h3>
+                      <p> Los contratos de alquiler que se firmen a partir de hoy deberán contemplar nuevas condiciones como la
+                        extensión de tres años y la actualización anual sobre la base de un índice oficial, en base a las
+                        previsiones contempladas en la flamante Ley de Alquileres publicada ayer en el Boletín Oficial.</p>
+                  </div>
+                  <div class="col">
+                    <a href="../pages/noticias.html"><img src="../img/alquileres.jpg" class="d-block w-100" alt="Ley-de-alquileres"></a>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
   <footer class="footer-t-jus">
 
@@ -246,6 +260,18 @@
             <ul class="dudas-2">
               <li><a href="usuario.html" class="reclamo">Quiero hacer un comentario/queja</a></li>
             </ul>
+          </div>
+        </div>
+        <div class="contacto container">
+          <div class="row">
+            <div class="col-10 copyright">
+              <h5>Todos los derechos reservados ©</h5>
+            </div>
+            <div class="col redes">
+              <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram.png" alt="" width="20%" class="biblioteca-icon"></a>
+              <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook.png" alt="" width="20%" class="biblioteca-icon"></a>
+              <a href="https://mail.google.com/" target="_blank"><img src="../img/email.png" alt="" width="20%" class="biblioteca-icon"></a>
+            </div>
           </div>
         </div>
     </div>

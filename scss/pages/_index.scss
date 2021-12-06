@@ -9,8 +9,8 @@
 }
 .iniciar-chat {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .chat {
     display:block;
@@ -27,10 +27,10 @@
     }
 }
 .slogan {
-    font-family: 'Roboto', sans-serif;
-    font-size: 200%;
+    font-family: 'Secular One', sans-serif;
+    font-size: 300%;
     align-self: center;
-    margin: 10% 5% 10% 5%;
+    margin: 10% 5% 5% 5%;
 }
 .objetivo {
     font-family: 'Roboto', sans-serif;
@@ -38,6 +38,10 @@
     text-align: justify;
     align-self: center;
     margin: 0% 7.5% 5% 10%;
+    transition: all 0.8s ease-in-out;
+    &:hover {
+        scale: (1.1);
+    }
 }
 .sintesis {
     font-family: 'Roboto', sans-serif;
@@ -48,4 +52,22 @@
     margin-left: 12%;
     margin-right: 5%;
 
+}
+.section-index-one {
+    background-color: rgb(248, 239, 226);
+}
+.section-index-two {
+    background-color: rgb(248, 239, 226);
+}
+.section-index-three {
+    background-color: rgb(160, 189, 243);
+}
+.section-index-four {
+    background-color: rgba(224, 220, 220, 0.822);
+}
+.section-index-five {
+    background-color: rgb(160, 189, 243);
+}
+.section-index-six {
+    background-color:rgb(248, 239, 226);
 }

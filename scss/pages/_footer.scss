@@ -1,13 +1,14 @@
 /*footer-config*/
 
 .accordion-button-footer , .footer-t-jus {
-    background-color:rgb(37, 155, 170)
+    background-color:rgb(134, 202, 211);
 }
 .accordion-body-footer {
     background-color: rgb(208, 240, 222);
 }
 .footer-t-jus {
     justify-items: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.233);
 }
 .dudas {
     color: blanchedalmond;
@@ -77,4 +78,10 @@
 .dudas-2 li ul li {
     position:relative;
     min-width: 400px;
+}
+.redes {
+    margin-bottom: 1%;
+}
+.copyright {
+    margin-bottom: 1%;
 }

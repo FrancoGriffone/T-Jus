@@ -9,10 +9,18 @@
     justify-content: center;
 }
 .slogan-encuesta {
-    font-family: 'Roboto', sans-serif;
-    font-size: 200%;
+    font-family: 'Secular One', sans-serif;
+    font-size: 150%;
     align-self: center;
-    margin: 5% 5% 2% 5%;
+    margin: 5%;
+}
+.encuesta-descripcion {
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    text-align: justify;
+    border: 4px solid rgba(250, 210, 110, 0.993);
+    border-radius: 12px;
+    padding: 5%;
 }
 .enviar-consulta {
     display:block;
@@ -22,12 +30,34 @@
     border-radius: 12px;
     font-family: 'Roboto', sans-serif;
     transition: all 0.8s ease-in-out;
+    &:hover {
+        background-color: #ffae00;
+        color: black;
+    }
 }
-.enviar-consulta:hover {
-    background-color: #ffae00;
-    color: black;
+.button-encuesta {
+    border-radius: 15px;
+    margin-bottom: 5%;
 }
 .alerta {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-family: 'Secular One', sans-serif;
+    font-size: 200%;
+}
+.alerta-div {
+    margin: 5%;
+}
+.section-encuesta-one {
+    background-color: rgb(248, 239, 226);
+}
+.section-encuesta-two {
+    background-color: rgb(160, 189, 243);
+}
+.section-encuesta-three {
+    background-color: rgba(224, 220, 220, 0.822);
+}
+.section-encuesta-four {
+    background-color: rgb(160, 189, 243);
+}
+.section-encuesta-five {
+    background-color: rgb(248, 239, 226);
 }

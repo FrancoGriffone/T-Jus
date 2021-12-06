@@ -1,19 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 * {
   margin: 0%;
   padding: 0%;
 }
 
 /*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Secular One', sans-serif;*/
 @media screen and (min-width: 1200px) {
-  .slogan-div, .objetivo-div, .iniciar-chat, .sintesis-div {
-    border-right: 2px solid rgba(0, 0, 0, 0.253);
-  }
-
-  .slogan-div {
-    margin-top: 5%;
-  }
-
   .sintesis-div, .boletin-oficial {
     margin-bottom: 5%;
   }
@@ -22,26 +16,11 @@
     margin-top: 3%;
     margin-left: 10%;
     margin-right: 2%;
-    border-top: 2px solid rgba(0, 0, 0, 0.253);
   }
 }
 @media screen and (max-width: 1200px) {
-  .boletin-oficial {
+  .boletin-oficial, .sintesis-div {
     margin-bottom: 5%;
-  }
-
-  .carousel-t-jus-usuario, .comentarios-usuarios {
-    margin: 5%;
-  }
-
-  .button-consulta {
-    margin-top: 5%;
-  }
-
-  .alerta-div {
-    margin: 10% 5% 10% 5%;
-    border-top: 2px solid rgba(0, 0, 0, 0.253);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.253);
   }
 }
 /*all-sections*/
@@ -60,29 +39,83 @@ ul, li {
   list-style: none;
 }
 
-.carousel-t-jus {
-  background-color: blanchedalmond;
+/*biblioteca-config*/
+.biblioteca {
   border-radius: 12px;
+  border: 4px solid rgba(250, 210, 110, 0.993);
+  margin: 5%;
 }
 
-.login-usuario, .carousel-t-jus-flex {
+.biblioteca-imagenes {
   display: flex;
-  align-items: center;
+  justify-content: space-around;
+  transition: all 0.8s ease-in-out;
+  margin: 3%;
+}
+
+.biblioteca-icon {
+  transition: all 0.8s ease-in-out;
+}
+.biblioteca-icon:hover {
+  transform: scale(1.5);
+}
+
+.biblioteca-descripciones {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.biblioteca-link {
+  display: flex;
   justify-content: center;
 }
 
+/*interes-space*/
+.interes {
+  font-family: "Secular One", sans-serif;
+  font-size: 200%;
+}
+
+.div-interes {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.interes-icon {
+  margin-right: 10%;
+}
+
+/*carousel*/
 .carousel-t-jus-flex {
+  margin-bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.carousel-div {
+  padding-left: 3%;
+}
+
+.mini-noticia {
+  font-family: "Secular One", sans-serif;
+  font-size: 150%;
   margin-bottom: 10%;
 }
 
 /*header-elements*/
 /*header-elements*/
 .t-jus-header {
-  background-color: #259baa;
+  background-color: #86cad3;
   border-bottom: 2px rgba(0, 0, 0, 0.253) solid;
 }
 
-.t-jus, .perfil-usuario, .noticias, .biblioteca {
+.t-jus, .perfil-usuario, .noticias, .biblioteca-header {
   font-family: "Roboto", sans-serif;
 }
 
@@ -97,7 +130,7 @@ ul, li {
 /*footer-config*/
 /*footer-config*/
 .accordion-button-footer, .footer-t-jus {
-  background-color: #259baa;
+  background-color: #86cad3;
 }
 
 .accordion-body-footer {
@@ -106,6 +139,7 @@ ul, li {
 
 .footer-t-jus {
   justify-items: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.233);
 }
 
 .dudas {
@@ -183,6 +217,14 @@ ul, li {
   min-width: 400px;
 }
 
+.redes {
+  margin-bottom: 1%;
+}
+
+.copyright {
+  margin-bottom: 1%;
+}
+
 /*index-config*/
 /*index-config*/
 .login {
@@ -195,8 +237,8 @@ ul, li {
 
 .iniciar-chat {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .chat {
@@ -215,10 +257,10 @@ ul, li {
 }
 
 .slogan {
-  font-family: "Roboto", sans-serif;
-  font-size: 200%;
+  font-family: "Secular One", sans-serif;
+  font-size: 300%;
   align-self: center;
-  margin: 10% 5% 10% 5%;
+  margin: 10% 5% 5% 5%;
 }
 
 .objetivo {
@@ -227,6 +269,10 @@ ul, li {
   text-align: justify;
   align-self: center;
   margin: 0% 7.5% 5% 10%;
+  transition: all 0.8s ease-in-out;
+}
+.objetivo:hover {
+  scale: 1.1;
 }
 
 .sintesis {
@@ -237,6 +283,30 @@ ul, li {
   margin-top: 10%;
   margin-left: 12%;
   margin-right: 5%;
+}
+
+.section-index-one {
+  background-color: #f8efe2;
+}
+
+.section-index-two {
+  background-color: #f8efe2;
+}
+
+.section-index-three {
+  background-color: #a0bdf3;
+}
+
+.section-index-four {
+  background-color: rgba(224, 220, 220, 0.822);
+}
+
+.section-index-five {
+  background-color: #a0bdf3;
+}
+
+.section-index-six {
+  background-color: #f8efe2;
 }
 
 /*usuario-config*/
@@ -253,12 +323,58 @@ ul, li {
 
 .cambiar-datos-usuario {
   margin-top: 15%;
+  margin-left: 10%;
+}
+
+.nombre-usuario {
+  margin-bottom: 5%;
 }
 
 .comentarios-usuarios {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin: 5%;
+}
+
+.button-consulta {
+  margin-top: 5%;
+}
+
+.enviar-consulta-button {
+  background-color: #7a19d4;
+  color: white;
+  border-radius: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.enviar-consulta {
+  text-decoration: none;
+  padding: 15px 30px;
+}
+.enviar-consulta:hover {
+  background-color: #ffae00;
+  color: black;
+}
+
+.section-usuario-one {
+  background-color: #f8efe2;
+}
+
+.section-usuario-two {
+  background-color: #a0bdf3;
+}
+
+.section-usuario-three {
+  background-color: rgba(224, 220, 220, 0.822);
+}
+
+.section-usuario-four {
+  background-color: #a0bdf3;
+}
+
+.section-usuario-five {
+  background-color: #f8efe2;
 }
 
 /*encuesta-config*/
@@ -274,10 +390,19 @@ ul, li {
 }
 
 .slogan-encuesta {
-  font-family: "Roboto", sans-serif;
-  font-size: 200%;
+  font-family: "Secular One", sans-serif;
+  font-size: 150%;
   align-self: center;
-  margin: 5% 5% 2% 5%;
+  margin: 5%;
+}
+
+.encuesta-descripcion {
+  font-family: "Roboto", sans-serif;
+  font-size: 150%;
+  text-align: justify;
+  border: 4px solid rgba(250, 210, 110, 0.993);
+  border-radius: 12px;
+  padding: 5%;
 }
 
 .enviar-consulta {
@@ -289,33 +414,72 @@ ul, li {
   font-family: "Roboto", sans-serif;
   transition: all 0.8s ease-in-out;
 }
-
 .enviar-consulta:hover {
   background-color: #ffae00;
   color: black;
 }
 
-.alerta {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+.button-encuesta {
+  border-radius: 15px;
+  margin-bottom: 5%;
 }
 
-/*noticias-config*/
-/*noticias-config*/
-.noticia-pic {
+.alerta {
+  font-family: "Secular One", sans-serif;
+  font-size: 200%;
+}
+
+.alerta-div {
   margin: 5%;
 }
 
+.section-encuesta-one {
+  background-color: #f8efe2;
+}
+
+.section-encuesta-two {
+  background-color: #a0bdf3;
+}
+
+.section-encuesta-three {
+  background-color: rgba(224, 220, 220, 0.822);
+}
+
+.section-encuesta-four {
+  background-color: #a0bdf3;
+}
+
+.section-encuesta-five {
+  background-color: #f8efe2;
+}
+
+/*noticias-config*/
+/*noticias-config*/
+.slogan-noticia {
+  font-family: "Secular One", sans-serif;
+  font-size: 90%;
+}
+
+.noticia-pic {
+  margin: 5% 5% 3% 5%;
+}
+
+.pie-imagen {
+  margin-top: 3%;
+  font-family: "Secular One", sans-serif;
+  font-size: 110%;
+}
+
 .desarrollo {
-  margin-left: 7%;
-  margin-bottom: 5%;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.253);
+  margin: 5%;
+  font-family: "Roboto", sans-serif;
+  font-size: 150%;
 }
 
 .titulo-noticia {
   margin-bottom: 5%;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
+  font-family: "Secular One", sans-serif;
+  font-size: 300%;
 }
 
 .link-noticia {
@@ -327,49 +491,24 @@ ul, li {
   margin-top: 2%;
 }
 
-/*biblioteca-config*/
-/*biblioteca-config*/
-.biblioteca-item {
-  display: flex;
-  align-items: center;
+.section-noticia-one {
+  background-color: #f8efe2;
 }
 
-.biblioteca-photo:hover {
-  filter: grayscale(100%);
+.section-noticia-two {
+  background-color: #a0bdf3;
 }
 
-.biblioteca-photo {
-  border-radius: 20%;
-  transition: all 0.8s ease-in-out;
+.section-noticia-three {
+  background-color: rgba(224, 220, 220, 0.822);
 }
 
-.antecedentes-juridicos {
-  margin-top: 5%;
+.section-noticia-four {
+  background-color: #a0bdf3;
 }
 
-.boletin-oficial {
-  display: flex;
-  align-items: flex-start;
-}
-
-.recursos-biblioteca {
-  text-decoration: underline;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  margin-left: 5%;
-}
-
-.carousel-t-jus-biblioteca {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10%;
-}
-
-.descripcion-biblioteca-item {
-  text-align: center;
-  border: 5px solid blanchedalmond;
-  border-radius: 7px;
+.section-noticia-five {
+  background-color: #f8efe2;
 }
 
 /*# sourceMappingURL=style.css.map */
