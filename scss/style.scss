@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 @media screen and (min-width: 1200px) {
-    .sintesis-div , .boletin-oficial {
+    .sintesis-div {
         margin-bottom: 5%;
     }
     .alerta-div {
@@ -20,7 +20,7 @@
 
 }
 @media screen and (max-width: 1200px) {
-    .boletin-oficial , .sintesis-div {
+    .sintesis-div {
         margin-bottom: 5%;
     }
 }
@@ -30,7 +30,7 @@
 
 .item-fixed {
     position: fixed;
-    bottom: 1%;
+    bottom: 3%;
     right: -30%;
 }
 .container-fluid {

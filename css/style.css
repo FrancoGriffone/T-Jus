@@ -8,7 +8,7 @@
 /*font-family: 'Roboto', sans-serif;*/
 /*font-family: 'Secular One', sans-serif;*/
 @media screen and (min-width: 1200px) {
-  .sintesis-div, .boletin-oficial {
+  .sintesis-div {
     margin-bottom: 5%;
   }
 
@@ -19,14 +19,14 @@
   }
 }
 @media screen and (max-width: 1200px) {
-  .boletin-oficial, .sintesis-div {
+  .sintesis-div {
     margin-bottom: 5%;
   }
 }
 /*all-sections*/
 .item-fixed {
   position: fixed;
-  bottom: 1%;
+  bottom: 3%;
   right: -30%;
 }
 
