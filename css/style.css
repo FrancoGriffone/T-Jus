@@ -7,20 +7,31 @@
 
 /*font-family: 'Roboto', sans-serif;*/
 /*font-family: 'Secular One', sans-serif;*/
-@media screen and (min-width: 1200px) {
-  .sintesis-div {
-    margin-bottom: 5%;
-  }
-
-  .alerta-div {
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 2%;
+@media screen and (max-width: 576px) {
+  .item-fixed {
+    position: fixed;
+    bottom: 3%;
+    right: 0;
   }
 }
-@media screen and (max-width: 1200px) {
-  .sintesis-div {
-    margin-bottom: 5%;
+@media screen and (max-width: 768px) {
+  .item-fixed {
+    position: fixed;
+    bottom: 3%;
+    right: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .item-fixed {
+    position: fixed;
+    bottom: 3%;
+    right: 0;
+  }
+
+  .iniciar-chat {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
   }
 }
 /*all-sections*/
@@ -259,7 +270,6 @@ ul, li {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   text-align: justify;
-  align-self: center;
   margin: 0% 7.5% 5% 10%;
   transition: all 0.8s ease-in-out;
 }
@@ -271,10 +281,7 @@ ul, li {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   text-align: justify;
-  align-self: center;
-  margin-top: 10%;
-  margin-left: 12%;
-  margin-right: 5%;
+  margin: 5% 5% 5% 12%;
 }
 
 .section-index-one {
@@ -390,7 +397,7 @@ ul, li {
 
 .encuesta-descripcion {
   font-family: "Roboto", sans-serif;
-  font-size: 150%;
+  font-size: 100%;
   text-align: justify;
   border: 4px solid rgba(250, 210, 110, 0.993);
   border-radius: 12px;

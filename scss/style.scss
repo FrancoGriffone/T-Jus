@@ -8,22 +8,35 @@
 /*font-family: 'Secular One', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
-@media screen and (min-width: 1200px) {
-    .sintesis-div {
-        margin-bottom: 5%;
+@media screen and (max-width: 576px) {
+    .item-fixed {
+        position: fixed;
+        bottom: 3%;
+        right: 0;
     }
-    .alerta-div {
-        margin-top: 3%;
-        margin-left: 10%;
-        margin-right: 2%;
+}
+@media screen and (max-width: 768px) {
+    .item-fixed {
+        position: fixed;
+        bottom: 3%;
+        right: 0;
     }
+}
+@media screen and (max-width: 992px) {
+    .item-fixed {
+        position: fixed;
+        bottom: 3%;
+        right: 0;
+    }
+    .iniciar-chat {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+}
 
-}
-@media screen and (max-width: 1200px) {
-    .sintesis-div {
-        margin-bottom: 5%;
-    }
-}
+
+
 
 
 /*all-sections*/
