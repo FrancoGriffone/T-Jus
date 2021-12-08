@@ -79,9 +79,9 @@
     position:relative;
     min-width: 400px;
 }
-.redes {
-    margin-bottom: 1%;
+.redes , .copyright , .redes-small , .copyright-small {
+    margin: 2% 0% 2% 0%;
 }
-.copyright {
-    margin-bottom: 1%;
+.contacto-small {
+    display: flex;
 }

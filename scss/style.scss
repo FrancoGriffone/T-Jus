@@ -8,43 +8,93 @@
 /*font-family: 'Secular One', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
+@media screen and (max-width: 400px) {
+}
 @media screen and (max-width: 576px) {
-    .item-fixed {
-        position: fixed;
-        bottom: 3%;
-        right: 0;
+    .slogan {
+        font-size: 200%;
+        margin: 10% 2% 5% 5%;
+    }
+    .titulo-noticia {
+        font-size: 150%;
+    }
+    .carousel-inner {
+        overflow: visible;
     }
 }
 @media screen and (max-width: 768px) {
-    .item-fixed {
-        position: fixed;
-        bottom: 3%;
-        right: 0;
+    .interes {
+        font-family: 'Secular One', sans-serif;
+        font-size: 150%;
+    }
+    .div-interes {
+        display: flex;
+        justify-content: space-between;
+        margin:5% 5% 5% 5%;
+    }
+    .interes-icon {
+        margin-right: 10%;
+    }
+    .carousel-t-jus-flex {
+        display: flex;
     }
 }
 @media screen and (max-width: 992px) {
-    .item-fixed {
-        position: fixed;
-        bottom: 3%;
-        right: 0;
-    }
     .iniciar-chat {
         display: flex;
         justify-content: center;
-        margin-bottom: 3%;
+        padding-bottom: 3%;
+    }
+    .interes-icon {
+        width: 7%;
     }
 }
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (min-width: 576px) {
+    .slogan {
+    font-size: 300%;
+    margin: 10% 5% 5% 5%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .titulo-noticia {
+        font-size: 300%;
+    }
+    .interes {
+        font-family: 'Secular One', sans-serif;
+        font-size: 200%;
+    }
+    .div-interes {
+        display: flex;
+        justify-content: space-between;
+        margin:5%;
+    }
+    .interes-icon {
+        margin-right: 10%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .iniciar-chat {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .interes-icon {
+        width: 5%;
+    }
+}
+@media screen and (min-width: 1200px) {
 
-
+}
 
 
 
 /*all-sections*/
-
 .item-fixed {
     position: fixed;
-    bottom: 3%;
-    right: -30%;
+    bottom: 10px;
+    right: 100px;
 }
 .container-fluid {
     padding-left: 7%;
@@ -66,7 +116,7 @@ ul , li{
     display: flex;
     justify-content: space-around;
     transition: all 0.8s ease-in-out;
-    margin: 3%;
+    margin: 2%;
     
 }
 .biblioteca-icon {
@@ -86,20 +136,9 @@ ul , li{
     display: flex;
     justify-content: center;
 }
-
-/*interes-space*/
-
-.interes {
-    font-family: 'Secular One', sans-serif;
-    font-size: 200%;
-}
-.div-interes {
+.biblioteca-small {
     display: flex;
-    justify-content: space-between;
-    margin:5%;
-}
-.interes-icon {
-    margin-right: 10%;
+    flex-direction: column;
 }
 
 /*carousel*/
