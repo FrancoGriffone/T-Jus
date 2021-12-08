@@ -8,8 +8,6 @@
 /*font-family: 'Secular One', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
-@media screen and (max-width: 400px) {
-}
 @media screen and (max-width: 576px) {
     .slogan {
         font-size: 200%;
@@ -35,8 +33,8 @@
     .interes-icon {
         margin-right: 10%;
     }
-    .carousel-t-jus-flex {
-        display: flex;
+    .mini-noticia {
+        margin-bottom: 5%;
     }
 }
 @media screen and (max-width: 992px) {
@@ -74,6 +72,9 @@
     .interes-icon {
         margin-right: 10%;
     }
+    .mini-noticia {
+        margin-bottom: 10%;
+    }
 }
 @media screen and (min-width: 992px) {
     .iniciar-chat {
@@ -107,10 +108,12 @@ ul , li{
 
 /*biblioteca-config*/
 
+#section-biblioteca {
+    padding: 5%;
+}
 .biblioteca {
     border-radius: 12px;
     border: 4px solid rgba(250, 210, 110, 0.993);
-    margin: 5%;
 }
 .biblioteca-imagenes {
     display: flex;
@@ -140,6 +143,10 @@ ul , li{
     display: flex;
     flex-direction: column;
 }
+.biblioteca-small-item {
+    display: flex;
+    align-items: center;
+}
 
 /*carousel*/
 
@@ -156,7 +163,6 @@ ul , li{
 .mini-noticia {
     font-family: 'Secular One', sans-serif;
     font-size: 150%;
-    margin-bottom: 10%;
 }
 
 /*header-elements*/
