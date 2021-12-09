@@ -1,0 +1,75 @@
+.login {
+    background: url(https://i.ibb.co/sgHWrGb/Library-interior-empty-room-for-reading-with-books-on-wooden-shelves-ladder-glass-window-on-roof-wit.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.pantalla-login {
+    width: 100%;
+    padding: 15px;
+}
+.login-index {
+    text-decoration: none;
+}
+.formulario {
+    background: white;
+    padding: 3px;
+    margin-top: 150px;
+}
+.slogan-login {
+    text-align: center;
+    color: #27487e;
+    font-size: 150%;
+    margin-top: 3%;
+}
+.contenedor {
+    margin-bottom: 15px;
+    border: 1px solid white;
+    .espacio-login {
+        font-size: 20px;
+        width: 100%;
+        padding: 10px;
+        border: none;
+    }
+}
+.login-button {
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #27487e;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        background-color: #ffae00;
+        color: black;
+    }
+}
+.login-parrafo {
+    text-align: center;
+}
+.link-registro {
+    text-decoration: none;
+    color: #27487e;
+    font-weight: 600;
+    &:hover {
+        color: #ffae00;
+    }
+}
+@media screen and (max-width: 768px) {
+    .slogan-login {
+        font-size: 150%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .formulario {
+        margin: auto;
+        width: 500px;
+        border-radius: 5px;
+        margin-top: 150px;
+    }
+    .slogan-login {
+        font-size: 200%;
+    }
+}
+
