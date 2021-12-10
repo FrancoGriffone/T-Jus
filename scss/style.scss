@@ -92,10 +92,15 @@
 
 
 /*all-sections*/
-.item-fixed {
+.fixed-contenedor {
+    text-align: end;
+}
+.image-login {
     position: fixed;
-    bottom: 10px;
-    right: 100px;
+    z-index: 5;
+    bottom: 50px;
+    right: 20px;
+    width:70px;
 }
 .container-fluid {
     padding-left: 7%;
