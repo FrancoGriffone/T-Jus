@@ -90,30 +90,35 @@
 
     <div class="row">
       <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 relleno-encuesta">
-        <select class="form-select" aria-label="Default select example">
-          <option selected>Área Jurídica</option>
-          <option value="1">Civil</option>
-          <option value="2">Penal</option>
-          <option value="3">Comercial</option>
-          <option value="4">Familiar</option>
-          <option value="5">Otro</option>
-        </select>
-        <select class="form-select" aria-label="Default select example">
-          <option selected>Temática Jurídica</option>
-          <option value="1">Alquileres</option>
-          <option value="2">Cuota alimentaria</option>
-          <option value="3">Sucesión / Declaratoria de Herederos</option>
-          <option value="4">Contravenciones, multas y/o penas</option>
-          <option value="5">Otro</option>
-        </select>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tuemail@ejemplo.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Describenos en detalle tu caso</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+        <form action="https://formspree.io/f/xqknkwal" method="post">
+          <div>
+            <select class="form-select" aria-label="Default select example" name="area">
+              <option disabled selected>Área Jurídica</option>
+              <option value="1">Civil</option>
+              <option value="2">Penal</option>
+              <option value="3">Comercial</option>
+              <option value="4">Familiar</option>
+              <option value="5">Otro</option>
+            </select>
+            <select class="form-select" aria-label="Default select example" name="tematica">
+              <option disabled selected>Temática Jurídica</option>
+              <option value="1">Alquileres</option>
+              <option value="2">Cuota alimentaria</option>
+              <option value="3">Sucesión / Declaratoria de Herederos</option>
+              <option value="4">Contravenciones, multas y/o penas</option>
+              <option value="5">Otro</option>
+            </select>
+            <label for="exampleFormControlInput1" class="form-label" name="correo">Correo Electrónico</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tuemail@ejemplo.com" name="correo">
+            <label for="exampleFormControlTextarea1" class="form-label" name="texto">Describenos en detalle tu caso</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="texto"></textarea>
+          </div>
+          <div class="enviar-consulta-div" name="button">
+            <button class="button-encuesta" type="submit">
+              <a class="enviar-consulta">Enviar consulta</a>
+            </button>
+          </div>
+      </form>
       </div>
       <div class="col">
         <h2 class="encuesta-descripcion">La encuesta es simple: completá con tus datos todos los campos con lo que vos
@@ -122,16 +127,6 @@
           que no sepas con que items rellenar). Una vez que lo envíes, nosotros te pondremos en contacto con uno de
           nuestros
           abogados registrados en el sitio para que resuelva tus dudas y te ayude con tus problemas. </h2>
-      </div>
-    </div>
-
-    <!--enviar-consulta-->
-
-    <div class="row">
-      <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 enviar-consulta-div">
-        <button class="button-encuesta" type="submit">
-          <a href="../index.html" class="enviar-consulta">Enviar consulta</a>
-        </button>
       </div>
     </div>
   </section>

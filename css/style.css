@@ -402,16 +402,13 @@ ul, li {
   margin-top: 5%;
 }
 
-.enviar-consulta-button {
+.enviar-consulta {
+  text-decoration: none;
+  padding: 15px 30px;
   background-color: #7a19d4;
   color: white;
   border-radius: 12px;
   font-family: "Roboto", sans-serif;
-}
-
-.enviar-consulta {
-  text-decoration: none;
-  padding: 15px 30px;
 }
 .enviar-consulta:hover {
   background-color: #ffae00;
@@ -441,13 +438,17 @@ ul, li {
 /*encuesta-config*/
 /*encuesta-config*/
 .relleno-encuesta {
-  margin: 0% 5% 5% 5%;
+  margin: 0% 5% 5% 3%;
 }
 
 .enviar-consulta-div, .alerta-div {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.enviar-consulta-div {
+  margin-top: 5%;
 }
 
 .slogan-encuesta {

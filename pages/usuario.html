@@ -107,20 +107,20 @@
   <section id="comentarios" class="container-fluid section-encuesta-two">
     <div class="row">
       <div class="col comentarios-usuarios">
-        <div>
-          <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-              style="height: 100px"></textarea>
-            <label for="floatingTextarea2">Dejanos tus comentarios acá</label>
+        <form action="https://formspree.io/f/xqknkwal" method="post">
+          <div>
+            <div class="form-floating">
+              <input type="text" name="text" class="form-control" placeholder="Dejanos tus comentarios acá" id="floatingTextarea2"
+              style="height: 100px">
+              <label for="floatingTextarea2">Dejanos tus comentarios acá</label>
+            </div>
+          </div>
+          <div class="button-consulta" name="button">
+            <button class="enviar-consulta" type="submit">Enviar comentarios</button>
           </div>
         </div>
-        <div class="button-consulta">
-          <button class="enviar-consulta-button">
-            <a class="enviar-consulta">Enviar comentarios</a>
-          </button>
-        </div>
       </div>
-  </section>
+    </section>
 
   <!--biblioteca-->
 

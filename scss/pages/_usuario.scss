@@ -25,15 +25,13 @@
 .button-consulta {
     margin-top: 5%;
 }
-.enviar-consulta-button { 
+.enviar-consulta {
+    text-decoration: none;
+    padding: 15px 30px;
     background-color: #7a19d4;
     color: white;
     border-radius: 12px;
     font-family: "Roboto", sans-serif;
-}
-.enviar-consulta {
-    text-decoration: none;
-    padding: 15px 30px;
     &:hover {
         background-color: #ffae00;
         color: black;
